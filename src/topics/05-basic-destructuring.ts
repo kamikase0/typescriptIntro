@@ -31,7 +31,7 @@ const { author, year } = details;
 
 //desectructuracion de areglos
 
-const [, go, kri = "not found"]: string[] = ["Goku", "Gojhan", "Krillin"];
+const [, , kri = "not found"]: string[] = ["Goku", "Gojhan", "Krillin"];
 
 console.log("Personaje 3:", kri);
 
